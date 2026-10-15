@@ -1,18 +1,21 @@
 #include <stdio.h>
-
-int main() {
-	int a;
-	printf("nhap so: ");
-	scanf("%d", &a);
-	
-	if ( a < 15){
+int main (){
+	int t;
+	scanf("%d", &t);
+		
+	if ( t < 15){
 		printf("LANH");
-	} else if(a < 25 ){
+		}
+	if(15<t && t<25){
 		printf("MAT");
-	} else if(a < 35 ){
+		}
+	if(25<t && t<35){
 		printf("NONG");
-	} else {
+		}
+	if
+	(t>35){
 		printf("RAT NONG");
-	}
-  return 0;
-}
+		}
+		return 0;
+		}
+		
