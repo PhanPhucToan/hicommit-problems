@@ -1,11 +1,18 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+	int a;
+	printf("nhap so: ");
+	scanf("%d", &a);
+	
+	if ( a < 15){
+		printf("LANH");
+	} else if(a < 25 ){
+		printf("MAT");
+	} else if(a < 35 ){
+		printf("NONG");
+	} else {
+		printf("RAT NONG");
+	}
+  return 0;
 }
