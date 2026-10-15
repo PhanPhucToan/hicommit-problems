@@ -4,8 +4,8 @@ int main() {
 	int a;
 	scanf("%d", &a);
 	if(a%2==0)
-		printf("so chan la:%d",a);
+		printf("SO CHAN",a);
 		else 
-		printf("so le la:%d",a);
+		printf("SO LE",a);
   return 0;
 }
