@@ -6,15 +6,13 @@ int main() {
   scanf("%d",&drl);
   if(dtb >= 9.0&&drl >= 90){
     printf("HOC BONG XUAT SAC:%d");}
-  if else(8.0 <= dtb < 9.0&&80 <= drl < 90){
+  else if(8.0 <= dtb < 9.0&&80 <= drl < 90){
   printf("HOC BONG GIOI:%d");}
-  if else(7.0 <= dtb < 8.0&&70 <= drl < 80){
+  else if(7.0 <= dtb < 8.0&&70 <= drl < 80){
     printf("HOC BONG KHA:%d");}
-  if else(dtb < 7.0&&drl < 70){
+  else if(dtb < 7.0&&drl < 70){
     printf("KHONG DAT:%d");}
   
-
-
 
   
   return 0;
