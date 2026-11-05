@@ -1,11 +1,16 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+  int dtb,drl;
+  scanf("%d",&dtb);
+  scanf("%d",&drl);
+  if(dtb >= 9.0&&drl >= 90){
+    printf("HOC BONG XUAT SAC:%d");}
+if else(8.0 <= dtb < 9.0&&80 <= drl < 90){
+  printf("HOC BONG GIOI:%d");}
 
-    return 0;
+
+
+  
+  return 0;
 }
